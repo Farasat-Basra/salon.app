@@ -311,7 +311,7 @@ interface BarChartProps {
   index: string
   categories: string[]
   colors?: string[]
-  valueFormatter?: (value: number) => string
+  formatType?: 'appts' | 'dollars'
   className?: string
 }
 
@@ -320,9 +320,15 @@ export function BarChart({
   index,
   categories,
   colors = ["#2563eb"],
-  valueFormatter = (value: number) => `${value}`,
+  formatType,
   className,
 }: BarChartProps) {
+  const formatValue = (value: number) => {
+    if (formatType === 'appts') return `${value} appts`;
+    if (formatType === 'dollars') return `$${value}`;
+    return String(value);
+  };
+
   return (
     <div className={className}>
       <ResponsiveContainer width="100%" height="100%">
@@ -333,7 +339,7 @@ export function BarChart({
             axisLine={false}
             tick={{ fontSize: 12 }}
             tickMargin={8}
-            tickFormatter={valueFormatter}
+            tickFormatter={formatValue}
           />
           <Tooltip
             content={({ active, payload }) => {
@@ -346,7 +352,7 @@ export function BarChart({
                           {payload[0].payload[index]}
                         </span>
                         <span className="font-bold text-muted-foreground">
-                          {valueFormatter(payload[0].value as number)}
+                          {formatValue(payload[0].value as number)}
                         </span>
                       </div>
                     </div>

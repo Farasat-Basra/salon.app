@@ -116,7 +116,7 @@ export default function AdminDashboard() {
               index="day"
               categories={["count"]}
               colors={["#f9d1e0"]}
-              valueFormatter={(value) => `${value} appts`}
+              formatType="appts"
               className="aspect-[4/3]"
             />
           </CardContent>
@@ -133,7 +133,7 @@ export default function AdminDashboard() {
               index="category"
               categories={["amount"]}
               colors={["#f9d1e0"]}
-              valueFormatter={(value) => `$${value}`}
+              formatType="dollars"
               className="aspect-[4/3]"
             />
           </CardContent>

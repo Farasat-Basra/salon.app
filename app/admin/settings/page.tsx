@@ -44,7 +44,7 @@ export default function AdminSettingsPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <Label htmlFor="business-name">Business Name</Label>
-                    <Input id="business-name" defaultValue="Serenity Salon" />
+                    <Input id="business-name" defaultValue="Zahra Medical Salon" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="business-phone">Phone Number</Label>
@@ -52,11 +52,11 @@ export default function AdminSettingsPage() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="business-email">Email Address</Label>
-                    <Input id="business-email" defaultValue="info@serenitysalon.com" />
+                    <Input id="business-email" defaultValue="info@Zahra Medicalsalon.com" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="business-website">Website</Label>
-                    <Input id="business-website" defaultValue="https://serenitysalon.com" />
+                    <Input id="business-website" defaultValue="https://Zahra Medicalsalon.com" />
                   </div>
                 </div>
 
@@ -69,7 +69,7 @@ export default function AdminSettingsPage() {
                   <Label htmlFor="business-description">Business Description</Label>
                   <Textarea
                     id="business-description"
-                    defaultValue="Serenity Salon is your destination for beauty, relaxation, and self-care. We offer a comprehensive range of hair, nail, and spa services."
+                    defaultValue="Zahra Medical Salon is your destination for beauty, relaxation, and self-care. We offer a comprehensive range of hair, nail, and spa services."
                     rows={4}
                   />
                 </div>

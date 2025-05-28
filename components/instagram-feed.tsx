@@ -12,7 +12,7 @@ const mockInstagramPosts = [
   {
     id: "1",
     imageUrl: "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1974&auto=format&fit=crop",
-    caption: "Fresh highlights for summer! ☀️ #summerhair #highlights #serenitysalon",
+    caption: "Fresh highlights for summer! ☀️ #summerhair #highlights #Zahra Medicalsalon",
     likes: 124,
     comments: 18,
     timestamp: "2 days ago",
@@ -20,7 +20,7 @@ const mockInstagramPosts = [
   {
     id: "2",
     imageUrl: "https://images.unsplash.com/photo-1610992015732-2449b76344bc?q=80&w=1974&auto=format&fit=crop",
-    caption: "Nail art of the day! 💅 #nailart #manicure #serenitysalon",
+    caption: "Nail art of the day! 💅 #nailart #manicure #Zahra Medicalsalon",
     likes: 98,
     comments: 12,
     timestamp: "3 days ago",
@@ -36,7 +36,7 @@ const mockInstagramPosts = [
   {
     id: "4",
     imageUrl: "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?q=80&w=1974&auto=format&fit=crop",
-    caption: "New week, new look! 💇‍♀️ #haircut #transformation #serenitysalon",
+    caption: "New week, new look! 💇‍♀️ #haircut #transformation #Zahra Medicalsalon",
     likes: 201,
     comments: 32,
     timestamp: "1 week ago",
@@ -74,7 +74,7 @@ export function InstagramFeed({ limit = 4 }: InstagramFeedProps) {
           rel="noopener noreferrer"
           className="text-sm text-primary hover:underline"
         >
-          @serenitysalon
+          @Zahra Medicalsalon
         </a>
       </div>
 

@@ -9,7 +9,7 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Serenity Salon",
+  title: "Zahra Medical Salon",
   description: "Book your salon appointments with ease",
     generator: 'v0.dev'
 }

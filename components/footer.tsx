@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="space-y-3">
             <div className="flex items-center gap-2">
               <Scissors className="h-5 w-5 text-primary" />
-              <span className="text-lg font-bold">Serenity</span>
+              <span className="text-lg font-bold">Zahra Medical</span>
             </div>
             <p className="text-sm text-muted-foreground">Your destination for beauty and relaxation.</p>
           </div>
@@ -44,7 +44,7 @@ export default function Footer() {
               <p className="text-sm text-muted-foreground">123 Beauty Street</p>
               <p className="text-sm text-muted-foreground">New York, NY 10001</p>
               <p className="text-sm text-muted-foreground">(555) 123-4567</p>
-              <p className="text-sm text-muted-foreground">info@serenitysalon.com</p>
+              <p className="text-sm text-muted-foreground">info@Zahra Medicalsalon.com</p>
             </address>
           </div>
           <div>
@@ -67,7 +67,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 border-t pt-8 text-center">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Serenity Salon. All rights reserved.
+            © {new Date().getFullYear()} Zahra Medical Salon. All rights reserved.
           </p>
         </div>
       </div>

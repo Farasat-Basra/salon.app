@@ -98,7 +98,7 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Why Choose Serenity Salon</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Why Choose Zahra Medical Salon</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 We're committed to providing exceptional service and results.
               </p>
@@ -188,7 +188,7 @@ export default function Home() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Transform Your Look?</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Book your appointment today and experience the Serenity difference.
+                Book your appointment today and experience the Zahra Medical difference.
               </p>
             </div>
             <Button asChild size="lg" className="mt-4">

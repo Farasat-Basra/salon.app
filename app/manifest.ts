@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next"
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Serenity Salon Booking",
-    short_name: "Serenity",
+    name: "Zahra Medical Salon Booking",
+    short_name: "Zahra Medical",
     description: "Book your salon appointments with ease",
     start_url: "/",
     display: "standalone",

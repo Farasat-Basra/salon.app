@@ -23,7 +23,7 @@ export default function Header() {
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center gap-2">
             <Scissors className="h-6 w-6 text-primary" />
-            <span className="text-xl font-bold">Serenity</span>
+            <span className="text-xl font-bold">Zahra Medical</span>
           </Link>
         </div>
 
@@ -117,7 +117,7 @@ export default function Header() {
           <div className="container flex h-16 items-center justify-between">
             <div className="flex items-center gap-2">
               <Scissors className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold">Serenity</span>
+              <span className="text-xl font-bold">Zahra Medical</span>
             </div>
             <Button variant="ghost" size="icon" onClick={toggleMenu}>
               <X className="h-5 w-5" />

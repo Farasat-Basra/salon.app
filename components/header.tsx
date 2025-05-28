@@ -113,8 +113,8 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="fixed inset-0 z-50 bg-background md:hidden">
-          <div className="container flex h-16 items-center justify-between">
+        <div className="fixed inset-0 z-[999px] flex flex-col md:hidden bg-white h-screen shadow-lg">
+          <div className="flex h-16 items-center justify-between px-4 border-b">
             <div className="flex items-center gap-2">
               <Scissors className="h-6 w-6 text-primary" />
               <span className="text-xl font-bold">Zahra Medical</span>
@@ -124,18 +124,18 @@ export default function Header() {
               <span className="sr-only">Close menu</span>
             </Button>
           </div>
-          <nav className="container grid gap-6 p-6">
+          <nav className="flex flex-col gap-4 p-6">
             {!isAdmin ? (
               <>
-                <Link href="/" className="flex items-center gap-2 text-lg font-medium" onClick={toggleMenu}>
+                <Link href="/" className="flex items-center gap-2 text-lg font-medium px-2 py-2 rounded hover:bg-primary/10 transition" onClick={toggleMenu}>
                   <Home className="h-5 w-5" />
                   Home
                 </Link>
-                <Link href="/services" className="flex items-center gap-2 text-lg font-medium" onClick={toggleMenu}>
+                <Link href="/services" className="flex items-center gap-2 text-lg font-medium px-2 py-2 rounded hover:bg-primary/10 transition" onClick={toggleMenu}>
                   <Scissors className="h-5 w-5" />
                   Services
                 </Link>
-                <Link href="/staff" className="flex items-center gap-2 text-lg font-medium" onClick={toggleMenu}>
+                <Link href="/staff" className="flex items-center gap-2 text-lg font-medium px-2 py-2 rounded hover:bg-primary/10 transition" onClick={toggleMenu}>
                   <Users className="h-5 w-5" />
                   Our Team
                 </Link>
